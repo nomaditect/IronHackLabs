@@ -3,10 +3,11 @@
 #1.List number of films per category.
 
 	SELECT fc.category_id, c.name, count(distinct fc.film_id)
-	from film_category fc
+	from sakila.film_category fc
 	join category c
 	on fc.category_id = c.category_id
 	group by category_id, name ;
+	
 
 #2.Display the first and last names, as well as the address, of each staff member.
 	
@@ -41,3 +42,47 @@
 	on c.customer_id=p.customer_id
 	group by customer_id
 	order by last_name;
+    
+    
+    USE sakila;
+    SELECT * FROM film
+    JOIN inventory
+    JOIN store
+    JOIN staff
+    WHERE title = 'Academy Dinosour';
+    
+    USE sakila;
+    
+    SELECT * FROM film
+    JOIN inventory using(film_id)
+    JOIN store using(store_id)
+    JOIN staff using(store_id)
+    JOIN rental using(inventory_id)
+    WHERE title = 'Academy Dinosaur' and store_id = 1;
+    
+    
+    SELECT title, length,
+    DENSE_RANK() OVER (order by length DESC)
+    FROM film
+    WHERE length > 1;
+    
+    
+	SELECT title, length, rating,
+    DENSE_RANK() OVER (partition by rating order by length DESC)
+    FROM film
+    WHERE length > 1
+    ORDER BY rating;
+    
+    SELECT customer_id, first_name, last_name, rental_id, film_id, 
+    count(film_id) OVER (partition by customer_id)
+    FROM customer
+    JOIN rental USING (customer_id)
+    JOIN inventory USING (inventory_id);
+    #LIMIT 1;
+    
+    
+    
+    
+    
+    
+    
