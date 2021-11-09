@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Week2/Tableau/Large_pollution_dataset.csv.zip
+Week2/Tableau/Large_dataset.hyper
+Week2/Tableau/Large_dataset.csv
