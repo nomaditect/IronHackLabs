@@ -15,7 +15,7 @@ _______
 * Limited to the computers performance.
 * Visualizations and dashboards spread between Tableau and Python
 
-## databrickspotenytial:
+## databricks potential:
 * Computing is entirely cloud based - there for insane speed potential.
 * Data stored in the cloud aswell
 * Notebooks stored within databricks alonf with datasets.
