@@ -130,3 +130,43 @@ dmypy.json
 Week2/Tableau/Large_pollution_dataset.csv.zip
 Week2/Tableau/Large_dataset.hyper
 Week2/Tableau/Large_dataset.csv
+*.shp
+*.prj
+*.dbf
+Week 6/storytelling/movement-range-data-2020-03-01-2020-12-31/movement-range-data-2020-03-01--2020-12-31.txt
+Week 6/storytelling/movement-range-data-2020-03-01-2020-12-31/README.txt
+Week 6/storytelling/movement-range-data-2021-11-21/movement-range-2021-11-21.txt
+Week 6/storytelling/movement-range-data-2021-11-21/README.txt
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_0.cpg
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_0.shx
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_1.cpg
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_1.shx
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_2.cpg
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_2.shx
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_3.cpg
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_3.shx
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_4.cpg
+Week 6/storytelling/shape_files/gadm36_ESP_shp/gadm36_ESP_4.shx
+Week 6/storytelling/shape_files/gadm36_ESP_shp/license.txt
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_0.cpg
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_0.shx
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_1.cpg
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_1.shx
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_2.cpg
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_2.shx
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_3.cpg
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_3.shx
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_4.cpg
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_4.shx
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_5.cpg
+Week 6/storytelling/shape_files/gadm36_FRA_shp/gadm36_FRA_5.shx
+Week 6/storytelling/shape_files/gadm36_FRA_shp/license.txt
+Week 6/storytelling/shape_files/gadm36_shp/gadm36.cpg
+Week 6/storytelling/shape_files/gadm36_shp/gadm36.shx
+Week 6/storytelling/shape_files/gadm36_USA_shp/gadm36_USA_0.cpg
+Week 6/storytelling/shape_files/gadm36_USA_shp/gadm36_USA_0.shx
+Week 6/storytelling/shape_files/gadm36_USA_shp/gadm36_USA_1.cpg
+Week 6/storytelling/shape_files/gadm36_USA_shp/gadm36_USA_1.shx
+Week 6/storytelling/shape_files/gadm36_USA_shp/gadm36_USA_2.cpg
+Week 6/storytelling/shape_files/gadm36_USA_shp/gadm36_USA_2.shx
+Week 6/storytelling/shape_files/gadm36_USA_shp/license.txt
